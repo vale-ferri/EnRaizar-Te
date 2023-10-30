@@ -1,0 +1,18 @@
+.header {
+    background-color: $color-principal;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+
+
+    ul { font-style: oblique;
+     list-style-type: square;
+    }
+
+    ul li { 
+    display: inline-block;
+    margin: 10px;
+    :hover { background-color: pink;}
+    }
+}
+
